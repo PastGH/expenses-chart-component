@@ -1,0 +1,110 @@
+//Variables
+$soft-red: hsl(10, 79%, 65%);
+$cyan: hsl(186, 34%, 60%);
+$dark-brown: hsl(25, 47%, 15%);
+$medium-brown: hsl(28, 10%, 53%);
+$cream: hsl(27, 66%, 92%);
+$very-pale-orange: hsl(33, 100%, 98%);
+
+//SASS
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  background-color: $cream;
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#balance .container {
+  background-color: $soft-red;
+  color: white;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  .text {
+    margin-right: 17rem;
+    .title {
+      font-size: 15px;
+    }
+    .money {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+}
+
+#chart .container {
+  background-color: $very-pale-orange;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  .title {
+    color: $dark-brown;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  ul li {
+    font-size: 15px;
+    color: $medium-brown;
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  hr {
+    margin: 20px 0;
+    color: $cream;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    .text {
+      .total {
+        color: $medium-brown;
+        font-size: 15px;
+      }
+      .money {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: $dark-brown;
+      }
+    }
+    section {
+      display: flex;
+      align-items: center;
+      .text2 {
+        font-size: 15px;
+        .earning {
+          color: $dark-brown;
+          font-weight: 700;
+        }
+        .last {
+          color: $medium-brown;
+        }
+      }
+    }
+  }
+}
+
+//Attribution
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

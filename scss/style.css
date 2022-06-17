@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  background-color: hsl(27deg, 66%, 92%);
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#balance .container {
+  background-color: hsl(10deg, 79%, 65%);
+  color: white;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+#balance .container .text {
+  margin-right: 17rem;
+}
+#balance .container .text .title {
+  font-size: 15px;
+}
+#balance .container .text .money {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#chart .container {
+  background-color: hsl(33deg, 100%, 98%);
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+#chart .container .title {
+  color: hsl(25deg, 47%, 15%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+#chart .container ul li {
+  font-size: 15px;
+  color: hsl(28deg, 10%, 53%);
+  display: inline-block;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+#chart .container hr {
+  margin: 20px 0;
+  color: hsl(27deg, 66%, 92%);
+}
+#chart .container section {
+  display: flex;
+  justify-content: space-between;
+}
+#chart .container section .text .total {
+  color: hsl(28deg, 10%, 53%);
+  font-size: 15px;
+}
+#chart .container section .text .money {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+}
+#chart .container section section {
+  display: flex;
+  align-items: center;
+}
+#chart .container section section .text2 {
+  font-size: 15px;
+}
+#chart .container section section .text2 .earning {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+}
+#chart .container section section .text2 .last {
+  color: hsl(28deg, 10%, 53%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
